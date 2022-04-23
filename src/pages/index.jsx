@@ -6,6 +6,7 @@ import Draggable from 'react-draggable';
 import { FaPinterest, FaInstagram, FaAmazon } from "react-icons/fa"
 import BigImageBox from "../component/BigImageBox";
 import { Helmet } from "react-helmet"
+import PillOrganizerVideo from "../images/PILL-ORGANIZER-REVISION.mp4"
 
 
 const Home = () => {
@@ -111,12 +112,12 @@ const Home = () => {
               <p className="para-size">
                 The latest design has been used on this weekly <b>pill organizer</b> to achieve one-handed operation with the little rubber strips for the smart "spring open lid" feature. The lids are all beautifully colored and marked clearly with the day, everything is clear at a glance so you may find it easy to choose the pills you need.
               </p>
-              <a href="" className="btn btn-success text-white text-center mx-auto">Order Now <FaAmazon color="white" size={30} /></a>
+              <a href="https://www.amazon.com/muffshell" className="btn btn-lg btn-success text-white">Order Now <FaAmazon color="white" size={30} /></a>
             </div>
           </div>
 
           <div className="row align-items-center justify-content-center border-bottom py-5">
-            <h2 className="main-heading text-center">Combo Pack with Pill Organizer {"&"} Pill Crusher <b>(Pill grinder)</b>: </h2>
+            <h2 className="main-heading text-center">Combo Pack Of Pill Organizer {"&"} Pill Crusher <b>(Pill grinder)</b>: </h2>
             <div className="col-md-4 text-center py-4">
               <StaticImage
                 src="../images/pill-crusher.jpg"
@@ -131,9 +132,9 @@ const Home = () => {
 
       <div className="container-fluid pb-5">
         <div className="container">
-          <h3 className="main-heading text-center my-4"><b>Pill Organizer</b> Video Overview</h3>
+          <h3 className="main-heading text-center my-4">MuffShell <b>Pill Organizer</b> Video Overview</h3>
           <video controls autoplay loop width="100%">
-            <source src="PILL-ORGANIZER-REVISION.mp4" type="video/mp4" />
+            <source src={PillOrganizerVideo} type="video/mp4" />
           </video>
         </div>
       </div>
