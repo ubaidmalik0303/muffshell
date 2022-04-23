@@ -85,4 +85,12 @@
     .para-size{
         font-size: 1.5rem;
     }
+
+    .banner{
+        height: 70vh;
+    }
+
+    .banner::after{
+        height: 70vh;
+    }
 }
