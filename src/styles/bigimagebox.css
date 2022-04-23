@@ -1,0 +1,30 @@
+.thumbnail-image{
+    cursor: zoom-in;
+    display: flex;
+    transition: all 0.3s;
+}
+
+.large-image-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.774);
+    z-index: 200;
+    padding: 50px;
+    transition: all 0.5s;
+}
+
+.large-image{
+    width: 100%;
+    height: 100%;
+}
+
+.closeIcon{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    z-index: 5;
+    cursor: pointer;
+}
